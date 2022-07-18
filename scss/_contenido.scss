@@ -1,0 +1,42 @@
+* {
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.3em;
+    margin-bottom: 2em;
+}
+
+h3 {
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+h5 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.carousel-inner {
+    width: 100vh;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+.btn btn-primary {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+// .d-block {
+//     background-repeat: no-repeat;
+//     width: 100vh;
+//     height: 100vh;
+// }

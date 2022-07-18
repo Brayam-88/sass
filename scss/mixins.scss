@@ -1,0 +1,53 @@
+//extend
+.btn-card {
+    width: 100px;
+    height: 40px;
+    border: none;
+    background: linear-gradient(to bottom, blue, red);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+        background-color: rgb(212, 6, 240);
+        cursor: pointer;
+    }
+}
+
+.btn .btn-primary {
+    @extend .btn-card;
+    border-radius: 5px;
+}
+
+//mixins
+@mixin nombre ($font-size, $line-height, $color) {
+    font-size: $font-size;
+    line-height: $line-height;
+    color: $color;
+    padding: 4px;
+}
+
+h3 {
+    @include nombre(3em, 2em, green)
+}
+
+@mixin flexs ($justify, $align) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+.box {
+    @include flexs(center, center)
+}
+
+@mixin flex-column() {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+$palettcolor:( 'uno': #af40f6, 'dos': #df1ce6, 'tres':#bb20c1, 'cuatro':#ecdde9, 'cinco': #9b9a9b, 'seis': #292829, 'siete':#e205bb, 'ocho':#dfa1d4, 'nueve':#bd9eb8, 'diez':#e7cfe3, 'once': #6e646c, 'doce': #7f3472, 'trece':#3f393e, );
+.bg-primary {
+    background-color: map-get($map: $palettcolor, $key: 'dos');
+}
