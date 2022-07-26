@@ -10114,6 +10114,11 @@ p {
   margin-bottom: 2em;
 }
 
+h2, .h2 {
+  font-size: 3.3em;
+  margin-bottom: 1em;
+}
+
 h3, .h3 {
   font-size: 3em;
   margin-bottom: 1em;
@@ -10127,12 +10132,23 @@ h5, .h5 {
 .btn btn-primary {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
+}
+
+.btn btn-light {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .carousel-inner img {
-  width: 100%;
-  max-height: 50%;
+  min-width: 100%;
+}
+
+.contacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=main.css.map */

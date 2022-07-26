@@ -8,6 +8,11 @@ p {
     margin-bottom: 2em;
 }
 
+h2 {
+    font-size: 3.3em;
+    margin-bottom: 1em;
+}
+
 h3 {
     font-size: 3em;
     margin-bottom: 1em;
@@ -21,17 +26,21 @@ h5 {
 .btn btn-primary {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+}
+
+.btn btn-light {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .carousel-inner img {
-    width: 100%;
-    max-height: 50%;
+    min-width: 100%;
 }
 
-// .carousel-inner {
-//     height: 70%;
-// }
-// .carousel-inner-item img {
-//     max-height: 600px;
-// }
+.contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
