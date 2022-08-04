@@ -10142,7 +10142,7 @@ h5, .h5 {
 }
 
 .carousel-inner img {
-  min-width: 100%;
+  min-height: 100%;
 }
 
 .contacto {
@@ -10153,7 +10153,10 @@ h5, .h5 {
 
 .nav-link {
   font-size: 2em;
-  text-decoration: none;
+}
+
+.bg {
+  color: rgb(27, 206, 152);
 }
 
 /*# sourceMappingURL=main.css.map */
