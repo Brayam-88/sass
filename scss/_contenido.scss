@@ -60,3 +60,21 @@ h5 {
 //     align-items: center;
 //     justify-content: center;
 // }
+.w-100 {
+    width: 50vh;
+    height: auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-outline-success {
+    color: #f86cec;
+    border-color: #a2a3a2;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #f86cec;
+    border-color: #a2a3a2;
+}
