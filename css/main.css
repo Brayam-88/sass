@@ -10179,8 +10179,7 @@ h5, .h5 {
 }
 
 @media (min-width: 576px) {
-  .container-md,
-.container-sm,
+  .container-sm,
 .container {
     max-width: 540px;
   }
