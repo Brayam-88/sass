@@ -1,36 +1,49 @@
-.btn-card,
-.btn .btn-primary {
-    width: 100px;
-    height: 40px;
-    border: none;
-    background: linear-gradient(to bottom, blue, red);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.btn-card, .btn .btn-primary {
+  width: 100px;
+  height: 40px;
+  border: none;
+  background: -webkit-gradient(linear, left top, left bottom, from(blue), to(red));
+  background: linear-gradient(to bottom, blue, red);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.btn-card:hover,
-.btn .btn-primary:hover {
-    background-color: rgb(96, 77, 99);
-    cursor: pointer;
+.btn-card:hover, .btn .btn-primary:hover {
+  background-color: #d406f0;
+  cursor: pointer;
 }
 
 .btn .btn-primary {
-    border-radius: 5px;
+  border-radius: 5px;
 }
 
 h3 {
-    font-size: 3em;
-    line-height: 2em;
-    color: green;
-    padding: 4px;
+  font-size: 3em;
+  line-height: 2em;
+  color: green;
+  padding: 4px;
 }
 
 .box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-
+.bg-primary {
+  background-color: #df1ce6;
+}
 /*# sourceMappingURL=mixins.css.map */
